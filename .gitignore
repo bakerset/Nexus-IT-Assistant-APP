@@ -1,0 +1,41 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Backend
+nexus/backend/__pycache__/
+nexus/backend/*.pyc
+nexus/backend/venv/
+nexus/backend/.venv/
+nexus/backend/dist/
+nexus/backend/build/
+nexus/backend/*.egg-info/
+nexus/backend/.pytest_cache/
+nexus/backend/nexus.db
+
+# ChromaDB
+nexus/backend/chroma_data/
+
+# Frontend
+nexus/frontend/node_modules/
+nexus/frontend/.vite
+nexus/frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads
+nexus/backend/uploads/*
+!nexus/backend/uploads/.gitkeep
